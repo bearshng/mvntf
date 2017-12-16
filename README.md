@@ -1,0 +1,1 @@
+Download the code and run testMVNTF. You may need to change the convergence condition according to diffrence dataset. Generally, the convergence setting in our code  works.
