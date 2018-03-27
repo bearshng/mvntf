@@ -10,6 +10,7 @@ btdInit{3}=max(btdInit{3},1e-4);
 EndNum=6;
 rankNumber=19;
 options.derta=0.4;
+options.convergeNum=5;
 allSad=zeros(1,10);
 allRmse=zeros(1,10);
 t=mvntf(tensorData,EndNum,rankNumber,btdInit{1},btdInit{2},btdInit{3},options);
